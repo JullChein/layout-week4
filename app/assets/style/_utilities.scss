@@ -1,0 +1,34 @@
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding-right: 12px;
+    padding-left: 12px;
+
+    @include pad {
+        max-width: 992px;
+    }
+
+    @include mobile {
+        max-width: 768px;
+    }
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.fx-direction-column {
+    flex-direction: column;
+}
